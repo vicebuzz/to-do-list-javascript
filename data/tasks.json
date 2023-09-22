@@ -1,0 +1,304 @@
+{
+  "tasks": {
+    "taskTest": {
+      "taskID": "testID",
+      "taskPriority": "testPriority",
+      "name": "testName",
+      "dateUploaded": "testDate",
+      "completed": false,
+      "deleted": false,
+      "completedDate": "",
+      "dueDate": ""
+    },
+    "taskfc32a432-ece8-4800-8cf9-62ab6cc74476": {
+      "taskID": "taskfc32a432-ece8-4800-8cf9-62ab6cc74476",
+      "taskPriority": "",
+      "name": "center a div",
+      "dateUploaded": "16/4/2023",
+      "completed": true,
+      "deleted": true,
+      "completedDate": "18/05/2023",
+      "dueDate": ""
+    },
+    "task686cb326-326f-465c-b908-151dff3494d1": {
+      "taskID": "task686cb326-326f-465c-b908-151dff3494d1",
+      "taskPriority": "",
+      "name": "new entry",
+      "dateUploaded": "16/4/2023",
+      "completed": true,
+      "deleted": true,
+      "completedDate": "16/05/2023",
+      "dueDate": ""
+    },
+    "task68a9cad8-fc23-4c50-8aa8-1d1491ceae2f": {
+      "taskID": "task68a9cad8-fc23-4c50-8aa8-1d1491ceae2f",
+      "taskPriority": "",
+      "name": "due dates",
+      "dateUploaded": "17/4/2023",
+      "completed": true,
+      "deleted": true,
+      "completedDate": "18/05/2023",
+      "dueDate": ""
+    },
+    "task31fe5b83-64d4-437f-8783-34ed9a4bf831": {
+      "taskID": "task31fe5b83-64d4-437f-8783-34ed9a4bf831",
+      "taskPriority": "Urgent",
+      "name": "video creation",
+      "dateUploaded": "17/4/2023",
+      "completed": false,
+      "deleted": false,
+      "completedDate": "",
+      "dueDate": "19/05/2023"
+    },
+    "taske760ba25-8052-4f2d-aa0b-4223a0fcb821": {
+      "taskID": "taske760ba25-8052-4f2d-aa0b-4223a0fcb821",
+      "taskPriority": "Completed",
+      "name": "reflective journal",
+      "dateUploaded": "17/4/2023",
+      "completed": true,
+      "deleted": false,
+      "completedDate": "22/05/2023",
+      "dueDate": ""
+    },
+    "taske1de85f1-520a-40dc-a495-4cb7c28ac845": {
+      "taskID": "taske1de85f1-520a-40dc-a495-4cb7c28ac845",
+      "taskPriority": "",
+      "name": "filter functionality",
+      "dateUploaded": "18/4/2023",
+      "completed": true,
+      "deleted": true,
+      "completedDate": "18/05/2023",
+      "dueDate": "19/05/2023"
+    },
+    "taskc542dafb-2845-476b-b67f-a696a37035ed": {
+      "taskID": "taskc542dafb-2845-476b-b67f-a696a37035ed",
+      "taskPriority": "",
+      "name": "💗 💗 💗 💗 💗 💗 💗 💗 💗 💗 💗 💗 💗 💗 💗 💗 💗 ",
+      "dateUploaded": "18/4/2023",
+      "completed": false,
+      "deleted": true,
+      "completedDate": "",
+      "dueDate": ""
+    },
+    "task2ed8ca01-a495-4500-889d-55ff3fa39a4d": {
+      "taskID": "task2ed8ca01-a495-4500-889d-55ff3fa39a4d",
+      "taskPriority": "",
+      "name": "search task feature",
+      "dateUploaded": "18/4/2023",
+      "completed": false,
+      "deleted": true,
+      "completedDate": "",
+      "dueDate": ""
+    },
+    "task51bb84f9-3162-4ee9-b76a-906928315b64": {
+      "taskID": "task51bb84f9-3162-4ee9-b76a-906928315b64",
+      "taskPriority": "",
+      "name": "test entry",
+      "dateUploaded": "18/4/2023",
+      "completed": true,
+      "deleted": true,
+      "completedDate": "18/05/2023",
+      "dueDate": ""
+    },
+    "task16bb3d9b-c9e5-4c9b-b03d-5d9004169303": {
+      "taskID": "task16bb3d9b-c9e5-4c9b-b03d-5d9004169303",
+      "taskPriority": "",
+      "name": "1",
+      "dateUploaded": "18/4/2023",
+      "completed": false,
+      "deleted": true,
+      "completedDate": "",
+      "dueDate": ""
+    },
+    "taskd632101e-34a2-4b67-93d2-d71af8dcb635": {
+      "taskID": "taskd632101e-34a2-4b67-93d2-d71af8dcb635",
+      "taskPriority": "",
+      "name": "2",
+      "dateUploaded": "18/4/2023",
+      "completed": false,
+      "deleted": true,
+      "completedDate": "",
+      "dueDate": ""
+    },
+    "task8c8fb357-c988-48b0-bc2a-6d3850a1560f": {
+      "taskID": "task8c8fb357-c988-48b0-bc2a-6d3850a1560f",
+      "taskPriority": "",
+      "name": "3",
+      "dateUploaded": "18/4/2023",
+      "completed": false,
+      "deleted": true,
+      "completedDate": "",
+      "dueDate": ""
+    },
+    "task8e8f73f9-f95a-4124-b5e1-8470135065cf": {
+      "taskID": "task8e8f73f9-f95a-4124-b5e1-8470135065cf",
+      "taskPriority": "",
+      "name": "4",
+      "dateUploaded": "18/4/2023",
+      "completed": false,
+      "deleted": true,
+      "completedDate": "",
+      "dueDate": ""
+    },
+    "taskd9addfed-7f56-4dca-b55e-fccf4b409947": {
+      "taskID": "taskd9addfed-7f56-4dca-b55e-fccf4b409947",
+      "taskPriority": "",
+      "name": "5",
+      "dateUploaded": "18/4/2023",
+      "completed": false,
+      "deleted": true,
+      "completedDate": "",
+      "dueDate": ""
+    },
+    "taskda8b1477-0249-4775-8ddb-ad2fc853424c": {
+      "taskID": "taskda8b1477-0249-4775-8ddb-ad2fc853424c",
+      "taskPriority": "",
+      "name": "test entry",
+      "dateUploaded": "18/4/2023",
+      "completed": true,
+      "deleted": true,
+      "completedDate": "18/05/2023",
+      "dueDate": "19/05/2023"
+    },
+    "task42363f1f-7afb-486a-9b74-f948f898dfa1": {
+      "taskID": "task42363f1f-7afb-486a-9b74-f948f898dfa1",
+      "taskPriority": "",
+      "name": "test entry 2",
+      "dateUploaded": "18/4/2023",
+      "completed": true,
+      "deleted": true,
+      "completedDate": "18/05/2023",
+      "dueDate": ""
+    },
+    "taskff4852f6-4649-469c-b6c9-330fc9ffd5af": {
+      "taskID": "taskff4852f6-4649-469c-b6c9-330fc9ffd5af",
+      "taskPriority": "",
+      "name": "1",
+      "dateUploaded": "18/4/2023",
+      "completed": false,
+      "deleted": true,
+      "completedDate": "",
+      "dueDate": ""
+    },
+    "task9556cddd-1ff2-4dd6-b856-c50838977853": {
+      "taskID": "task9556cddd-1ff2-4dd6-b856-c50838977853",
+      "taskPriority": "",
+      "name": "2",
+      "dateUploaded": "18/4/2023",
+      "completed": false,
+      "deleted": true,
+      "completedDate": "",
+      "dueDate": ""
+    },
+    "task83b4bf61-5fd2-44be-8055-8fc444ab942d": {
+      "taskID": "task83b4bf61-5fd2-44be-8055-8fc444ab942d",
+      "taskPriority": "",
+      "name": "3",
+      "dateUploaded": "18/4/2023",
+      "completed": false,
+      "deleted": true,
+      "completedDate": "",
+      "dueDate": ""
+    },
+    "task7f80878e-bf91-4862-84c0-5e698a1d882c": {
+      "taskID": "task7f80878e-bf91-4862-84c0-5e698a1d882c",
+      "taskPriority": "",
+      "name": "4",
+      "dateUploaded": "18/4/2023",
+      "completed": false,
+      "deleted": true,
+      "completedDate": "",
+      "dueDate": ""
+    },
+    "taskebc09e10-5d34-45e2-a02c-6f80fcbda796": {
+      "taskID": "taskebc09e10-5d34-45e2-a02c-6f80fcbda796",
+      "taskPriority": "",
+      "name": "5",
+      "dateUploaded": "18/4/2023",
+      "completed": false,
+      "deleted": true,
+      "completedDate": "",
+      "dueDate": ""
+    },
+    "task5739d721-5941-45c7-b6e8-df826aa02d96": {
+      "taskID": "task5739d721-5941-45c7-b6e8-df826aa02d96",
+      "taskPriority": "",
+      "name": "test entry",
+      "dateUploaded": "22/4/2023",
+      "completed": true,
+      "deleted": true,
+      "completedDate": "22/05/2023",
+      "dueDate": ""
+    },
+    "task0b5beb17-7ce7-4a0c-a69e-c502e620611c": {
+      "taskID": "task0b5beb17-7ce7-4a0c-a69e-c502e620611c",
+      "taskPriority": "",
+      "name": "test entry",
+      "dateUploaded": "22/4/2023",
+      "completed": true,
+      "deleted": true,
+      "completedDate": "22/05/2023",
+      "dueDate": "25/05/2023"
+    },
+    "task746aa290-e6cd-467e-a785-9d43de742d4f": {
+      "taskID": "task746aa290-e6cd-467e-a785-9d43de742d4f",
+      "taskPriority": "",
+      "name": "1",
+      "dateUploaded": "22/4/2023",
+      "completed": false,
+      "deleted": true,
+      "completedDate": "",
+      "dueDate": ""
+    },
+    "task17fbdac2-8eb7-4549-9763-46c8d5d52706": {
+      "taskID": "task17fbdac2-8eb7-4549-9763-46c8d5d52706",
+      "taskPriority": "",
+      "name": "2",
+      "dateUploaded": "22/4/2023",
+      "completed": false,
+      "deleted": true,
+      "completedDate": "",
+      "dueDate": ""
+    },
+    "task788d4919-ea72-4bcd-935f-a4c3e0b9a501": {
+      "taskID": "task788d4919-ea72-4bcd-935f-a4c3e0b9a501",
+      "taskPriority": "",
+      "name": "3",
+      "dateUploaded": "22/4/2023",
+      "completed": false,
+      "deleted": true,
+      "completedDate": "",
+      "dueDate": ""
+    },
+    "tasked2009e9-1241-4eb7-ab80-4993a194e430": {
+      "taskID": "tasked2009e9-1241-4eb7-ab80-4993a194e430",
+      "taskPriority": "",
+      "name": "4",
+      "dateUploaded": "22/4/2023",
+      "completed": false,
+      "deleted": true,
+      "completedDate": "",
+      "dueDate": ""
+    },
+    "task9fb7d669-c302-4b08-ac7a-c26dca8e9b0b": {
+      "taskID": "task9fb7d669-c302-4b08-ac7a-c26dca8e9b0b",
+      "taskPriority": "",
+      "name": "5",
+      "dateUploaded": "22/4/2023",
+      "completed": false,
+      "deleted": true,
+      "completedDate": "",
+      "dueDate": ""
+    },
+    "task48fba138-a8dc-4820-9c8e-4d4aa3e25bd0": {
+      "taskID": "task48fba138-a8dc-4820-9c8e-4d4aa3e25bd0",
+      "taskPriority": "",
+      "name": "test entry ",
+      "dateUploaded": "22/4/2023",
+      "completed": true,
+      "deleted": true,
+      "completedDate": "22/05/2023",
+      "dueDate": ""
+    }
+  }
+}

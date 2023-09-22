@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Task manager</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <h1>Task manager</h1>
+    <div class="input">
+      <input type="text" id="taskInput" placeholder="Enter task" />
+      <button id="addTaskBtn">+</button>
+    </div>
+    <div class="container">
+      <div class="category">
+        <div class="section-header">
+          <h2>Urgent</h2>
+          <div id="urgent" class="filter-container">
+            <button id="urgent-filter-button" class="filter-button"><i class="fa fa-filter"></i></button>
+            <div id="urgent-filter-dropdown" class="dropdown-content">
+              <button id="a-z-filter-button" class="filter-option" onclick = "filterTasks('Urgent', 'a-z')">A-Z</button>
+              <button id="z-a-filter-button" class="filter-option" onclick = "filterTasks('Urgent', 'z-a')">Z-A</button>
+              <button id="upload-date-filter-button" class="filter-option" onclick = "filterTasks('Urgent', 'upload-date')">Upload date</button>
+              <button id="due-date-filter-button" class="filter-option" onclick = "filterTasks('Urgent', 'due-date')">Due date</button>
+            </div> 
+          </div>
+        </div>
+        <ul id="urgentList" class="list"></ul>
+      </div>
+      <div class="category">
+        <div class="section-header">
+          <h2>Prioritised</h2>
+          <div id="prioritised" class="filter-container">
+            <button id="prioritised-filter-button" class="filter-button"><i class="fa fa-filter"></i></button>
+            <div id="prioritised-filter-dropdown" class="dropdown-content">
+              <button id="a-z-filter-button" class="filter-option" onclick = "filterTasks('Prioritised', 'a-z')">A-Z</button>
+              <button id="z-a-filter-button" class="filter-option" onclick = "filterTasks('Prioritised', 'z-a')">Z-A</button>
+              <button id="upload-date-filter-button" class="filter-option" onclick = "filterTasks('Prioritised', 'upload-date')">Upload date</button>
+              <button id="due-date-filter-button" class="filter-option" onclick = "filterTasks('Prioritised', 'due-date')">Due date</button>
+            </div> 
+          </div>
+        </div>
+        <ul id="priorityList" class="list"></ul>
+      </div>
+      <div class="category">
+        <div class="section-header">
+          <h2>To be done</h2>
+          <div id="to-be-done" class="filter-container">
+            <button id="to-be-done-filter-button" class="filter-button"><i class="fa fa-filter"></i></button>
+            <div id="to-be-done-filter-dropdown" class="dropdown-content">
+              <button id="a-z-filter-button" class="filter-option" onclick = "filterTasks('To be done', 'a-z')">A-Z</button>
+              <button id="z-a-filter-button" class="filter-option" onclick = "filterTasks('To be done', 'z-a')">Z-A</button>
+              <button id="upload-date-filter-button" class="filter-option" onclick = "filterTasks('To be done', 'upload-date')">Upload date</button>
+              <button id="due-date-filter-button" class="filter-option" onclick = "filterTasks('To be done', 'due-date')">Due date</button>
+            </div> 
+          </div>
+        </div>
+        <ul id="toBeDoneList" class="list"></ul>
+      </div>
+    </div>
+    <div class="container">
+      <div class = 'category'>
+        <div class="section-header">
+          <h2>Completed</h2>
+          <div id="completed" class="filter-container">
+            <button id="completed-filter-button" class="filter-button"><i class="fa fa-filter"></i></button>
+            <div id="completed-filter-dropdown" class="dropdown-content">
+              <button id="a-z-filter-button" class="filter-option" onclick = "filterTasks('Completed', 'a-z')">A-Z</button>
+              <button id="z-a-filter-button" class="filter-option" onclick = "filterTasks('Completed', 'z-a')">Z-A</button>
+              <button id="upload-date-filter-button" class="filter-option" onclick = "filterTasks('Completed', 'upload-date')">Upload date</button>
+              <button id="due-date-filter-button" class="filter-option" onclick = "filterTasks('Completed', 'completed-date')">Completed date</button>
+            </div> 
+          </div>
+        </div>
+        <ul id = 'completedList' class = "list"></ul>
+      </div>
+    </div>
+    <div class="modal hidden-modal">
+      <button class="close-modal">&times;</button>
+      <h2 class="task-name-modal">Task Definition</h2>
+      <h3 class="task-creation-date-modal">Creation date:</h3>
+      <h3 class="task-complition-date-modal">Complition date:</h3>
+      <h3 class="task-due-date-modal">Due date:</h3>
+      <div class="modal-btns">
+        <button class="modal-complete-btn">Complete Task</button>
+        <button class="modal-add-due-date-btn">Add/Change Due Date</button>
+        <button class="modal-delete-btn">Delete Task</button>
+      </div>
+    </div>
+    <div class="overlay hidden-modal"></div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>
